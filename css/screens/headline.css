@@ -1,0 +1,39 @@
+.headliner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 300;
+}
+
+.left__side {
+  opacity: 0.8;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.left__side span:last-child {
+  margin-left: 20px;
+}
+
+.right__side {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.right__side span {
+  margin-right: 20px;
+}
+
+.right__side div {
+  margin-top: -3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: turquoise;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: 600;
+}

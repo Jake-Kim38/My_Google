@@ -1,0 +1,31 @@
+.search__div {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.search__div input {
+  padding: 20px;
+  width: 700px;
+  border-radius: 350px;
+  border: 1px solid white;
+  color: white;
+  font-size: 18px;
+  background-color: #212121;
+}
+
+.search__div input::placeholder {
+  opacity: 0.8;
+}
+
+.search__div > i:nth-child(2) {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 670px;
+}
+
+.search__div > i:nth-child(3) {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 590px;
+}
