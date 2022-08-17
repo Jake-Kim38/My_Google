@@ -1,0 +1,48 @@
+.bottom__block {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #202124;
+}
+
+.nation {
+  margin-top: 15px;
+  margin-left: 20px;
+  opacity: 0.4;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.bottom__line {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+
+.bottom__things {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 15px;
+  opacity: 0.4;
+}
+
+.bottom__things__one {
+  margin-left: 25px;
+}
+
+.bottom__things__one span {
+  margin-right: 10px;
+}
+
+.bottom__things__two {
+  margin-right: 25px;
+}
+
+.bottom__things__two span {
+  margin-left: 10px;
+}
